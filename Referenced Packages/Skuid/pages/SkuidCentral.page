@@ -1,0 +1,3 @@
+<apex:page sidebar="false" readOnly="true" docType="html-5.0" title="Skuid Central" tabStyle="SkuidCentral__tab">
+    <c:page page="SkuidCentral"/>
+</apex:page>

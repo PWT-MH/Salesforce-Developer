@@ -1,0 +1,6 @@
+<apex:page showHeader="true" standardStyleSheets="false">
+    <apex:styleSheet value="{!URLFOR($Resource.styles,'styles.css')}"/>
+    <apex:outputPanel styleClass="mystyle" layout="block">
+        My Styled Panel
+    </apex:outputPanel>
+</apex:page>

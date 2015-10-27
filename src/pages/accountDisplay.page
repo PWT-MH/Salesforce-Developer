@@ -1,0 +1,35 @@
+<apex:page standardController="Account">
+    <apex:detail />
+    <relatedList="false" />
+    <apex:outputLink value="http://developer.force.com/">Click me!</apex:outputLink>
+
+
+    <apex:relatedList list="Cases" />
+    
+    <apex:pageBlock title="My Account Contacts">
+        <apex:pageBlockTable value="{! account.contacts}" var="item">
+            <apex:column value="{! item.name}"/>
+            <apex:column value="{! item.email}"/>
+            <apex:column value="{!item.name}"/>
+            <apex:column value="{!item.phone}"/>
+
+
+        </apex:pageBlockTable>
+        
+        <apex:dataList value="{!account.contacts}" var="item">
+            <apex:outputText value="{!item.name}"/>
+        </apex:dataList>
+        
+        <ul>
+            <apex:repeat value="{!account.contacts}" var="item">
+ 
+                <li><apex:outputText value="{!item.name}"/></li>
+            </apex:repeat>
+        </ul>
+
+
+    </apex:pageBlock>
+
+    
+
+</apex:page>

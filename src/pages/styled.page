@@ -1,0 +1,11 @@
+<apex:page standardController="Account" sidebar="false" showHeader="false" standardStylesheets="false">
+<style>
+    body {font-family: Arial Unicode MS;}
+    <apex:stylesheet value=" {! URLFOR($Resource.Style, 'styles.css')} "/>
+
+
+</style>
+
+<h1>My Styled Page</h1>
+<p>Great!</p>
+</apex:page>

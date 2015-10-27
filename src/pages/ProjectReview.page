@@ -1,0 +1,15 @@
+<apex:page showHeader="true" sidebar="false"  
+           standardController="Project_Review__c"
+           extensions="ProjectReviewController">
+    <apex:form >
+        
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Close" onclick="window.close()"/>
+                <apex:commandButton action="{!saveThis}" value="Save" id="theButton"/>
+            </apex:pageBlockButtons>
+            <apex:inputText value="{!inputValue}" id="theTextInput"/>
+            
+        </apex:pageBlock> 
+    </apex:form>
+</apex:page>
