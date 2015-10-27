@@ -4,7 +4,7 @@ ProjectReviewController.cls
 ProjectReviewer.cls
 ProjectReviewerTest.cls
 ProjectReviewTriggerHandler.cls
-ProjectReviewTrigger.trigger - framework for all triggers in one trigger nd handled by ProjectReviewTriggerHandler.cls
+ProjectReviewTrigger.trigger - framework for all triggers in one trigger and handled by ProjectReviewTriggerHandler.cls
 
 Custom Objects:-Project_Review__c,Reviewed__c
 Validation Rules:-Action_Other,Status_Other
